@@ -1,0 +1,1 @@
+nvm use  v24.15.0;node /Users/l/other_git_repos/calculus-quest/nodejs_react_sample/hi_node.js
