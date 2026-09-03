@@ -10,11 +10,12 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+dist-electron
+release
 *.local
 
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
+.vscode/.debug.env
 .idea
 .DS_Store
 *.suo
@@ -23,5 +24,7 @@ dist-ssr
 *.sln
 *.sw?
 
-# 章节切换时的 src 备份
-.src-backup
+# lockfile
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
